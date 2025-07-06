@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO Essencial -->
+  <title>Serviços Empresariais em Vitória ES e Rio de Janeiro RJ | Soluções Digitais</title>
+  <meta name="description" content="Oferecemos soluções para empresas em Vitória (ES) e Rio de Janeiro (RJ): hospedagem, VPS, seguros, consórcios, crédito e saúde capilar. Atendimento rápido e personalizado." />
+  <meta name="keywords" content="Serviços para empresas, Vitória, Rio de Janeiro, VPS, hospedagem, consórcio, seguros, crédito pessoal, saúde capilar, tecnologia empresarial, soluções digitais" />
+  <meta name="author" content="Equipe Conectada" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph para redes sociais -->
+  <meta property="og:title" content="Soluções Empresariais em Vitória e Rio de Janeiro">
+  <meta property="og:description" content="Especialistas em hospedagem, crédito, consórcios, seguros e saúde empresarial no ES e RJ.">
+  <meta property="og:image" content="https://via.placeholder.com/800x400.png?text=Serviços+Empresariais">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fafafa;
+      color: #222;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    nav {
+      background: #cc0000;
+      padding: 10px 15px;
+      border-radius: 6px;
+      min-width: 250px;
+      flex-grow: 1;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 15px;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      margin: 0 15px 10px 0;
+      color: #cc0000;
+    }
+
+    #toggle-darkmode {
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      animation: blink 1.5s infinite;
+      box-shadow: 0 0 10px #ff6b6b;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; box-shadow: 0 0 12px #ff6b6b; }
+      50% { opacity: 0.6; box-shadow: 0 0 20px #ff6b6b; }
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #cc0000;
+      border-bottom: 2px solid #cc0000;
+      padding-bottom: 5px;
+    }
+
+    .link-button {
+      background-color: #cc0000;
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      margin: 5px;
+      box-shadow: 0 0 10px #cc0000;
+      transition: background-color 0.3s;
+    }
+
+    .link-button:hover {
+      background-color: #a00000;
+    }
+
+    #unique-string {
+      font-family: monospace;
+      background: #222;
+      color: #eee;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 40px;
+      white-space: pre-wrap;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 40px auto;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #cc0000;
+      transition: box-shadow 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: #121212;
+      color: #ddd;
+    }
+
+    body.dark-mode h1,
+    body.dark-mode h2,
+    body.dark-mode nav {
+      color: #ff6b6b;
+      background-color: #660000;
+    }
+
+    body.dark-mode nav a {
+      color: #fff;
+    }
+
+    body.dark-mode #unique-string {
+      background: #333;
+    }
+
+    body.dark-mode .link-button {
+      background-color: #ff6b6b;
+      color: #121212;
+    }
+
+    body.dark-mode #toggle-darkmode {
+      background-color: #ff6b6b;
+      color: #121212;
+    }
+  </style>
+</head>
+
+<body class="dark-mode">
+  <header>
+    <nav>
+      <a href="#credito">Crédito</a>
+      <a href="#hospedagem">Hospedagem & VPS</a>
+      <a href="#seg">Seguros</a>
+      <a href="#cabelo">Saúde Capilar</a>
+      <a href="#airbnb">Comece hj mesmo Airbnb</a>
+    </nav>
+    <h1>Empresas Conectadas | Vitória e Rio de Janeiro</h1>
+    <button id="toggle-darkmode">Modo Claro</button>
+  </header>
+
+  <!-- PLAYER DO YOUTUBE DINÂMICO -->
+  <div class="video-container">
+    <iframe
+      id="youtube-video"
+      src=""
+      title="Vídeo Informativo"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+
+  <!-- Botões dinâmicos para troca de vídeo -->
+  <div style="text-align:center; margin-bottom: 40px;">
+    <h2>Escolha um vídeo para assistir</h2>
+    <div id="video-buttons"></div>
+  </div>
+
+  <main>
+    <section id="airbnb">
+      <h2>Airbnb comece hj mesmo</h2>
+      <button class="link-button" data-url="https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g">
+        Comece no Airbnb hoje mesmo
+      </button>
+    </section>
+
+    <section id="credito">
+      <h2>Crédito para Empresas</h2>
+      <button class="link-button" data-url="https://geocredibnkvitoria.com/">Simular Crédito</button>
+    </section>
+
+    <section id="hospedagem">
+      <h2>Hospedagem de Sites & VPS Profissional</h2>
+      <button class="link-button" data-url="https://hostinger.com.br/?REFERRALCODE=1VICTOR444">Hostinger</button>
+      <button class="link-button" data-url="https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/">VPS Profissional</button>
+      <button class="link-button" data-url="https://wa.me/5527999860405?text=Olá%2C%20tenho%20interesse%20em%20soluções%20de%20VPS%20e%20ERP.">Outras Opções</button>
+    </section>
+
+    <section id="seg">
+      <h2>Consórcios & Seguros</h2>
+      <button class="link-button" data-url="https://wa.me/5527999497001?text=ola%20quero%20saber%20sobre%20seguro%20e%20consorcio">Fale com um Consultor</button>
+    </section>
+
+    <section id="cabelo">
+      <h2>Tratamentos Capilares</h2>
+      <button class="link-button" data-url="https://www.larissasaib.com.br/">Tricologia & Estética</button>
+    </section>
+
+    <div id="unique-string"></div>
+  </main>
+
+  <script>
+    // Array de vídeos YouTube - adicione mais IDs e títulos aqui para novos vídeos
+    const youtubeVideos = [
+      { id: "N04KYA0Dej0", titulo: "Rodízio de Linguiça | Câmeras Escondidas" },
+      {id:"295iwO2BHV4",titulo:"Pizza Mordida | Câmeras Escondidas"},
+      {id:"dMsc3fyC6KQ",titulo:"Seguro Obrigatório: Pegadinha na Chibia"}
+
+    ];
+
+    // Gera uma string única aleatória
+    function gerarStringUnica(tamanho = 120) {
+      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%&*-_=+{}[]<>?';
+      let resultado = '';
+      for (let i = 0; i < tamanho; i++) {
+        resultado += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+      return resultado;
+    }
+
+    // Carrega o vídeo do YouTube no iframe
+    function carregarVideo(id) {
+      const iframe = document.getElementById("youtube-video");
+      iframe.src = `https://www.youtube.com/embed/${id}?rel=0`;
+    }
+
+    // Inicialização
+    document.addEventListener("DOMContentLoaded", () => {
+      // Mostra string única
+      document.getElementById("unique-string").textContent =
+        "Identificador único:\n" + gerarStringUnica();
+
+      // Carrega o primeiro vídeo automaticamente
+      carregarVideo(youtubeVideos[0].id);
+
+      // Cria botões para todos os vídeos do array
+      const container = document.getElementById("video-buttons");
+      youtubeVideos.forEach(video => {
+        const btn = document.createElement("button");
+        btn.textContent = video.titulo;
+        btn.className = "link-button";
+        btn.style.margin = "8px";
+        btn.addEventListener("click", () => carregarVideo(video.id));
+        container.appendChild(btn);
+      });
+
+      // Configura botões com links externos
+      document.querySelectorAll(".link-button[data-url]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const url = btn.getAttribute("data-url");
+          window.open(url, "_blank");
+        });
+      });
+    });
+
+    // Alterna modo claro/escuro
+    const toggleBtn = document.getElementById("toggle-darkmode");
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      toggleBtn.textContent = document.body.classList.contains("dark-mode") ? "Modo Claro" : "Modo Escuro";
+    });
+  </script>
+</body>
+</html>
